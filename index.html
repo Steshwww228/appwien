@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/angebot.css">
+    <link rel="stylesheet" href="profil.css">
+    <link rel="stylesheet" href="file/owl.carousel.min.css">
+    <link rel="stylesheet" href="file/owl.theme.default.css">    
+</head>
+<body>
+    <!-- <section class="menucombo" id="menucombo">
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn" id="menu-btn"><i class="fa fa-bars"></i></label>
+    <div class="wrapper">
+       <ul>
+          <span id="marker"></span>  
+          <li><a href="#"><i class="fa fa-house"></i>Home</a></li>
+          <li><a href="#"><i class="fa fa-user"></i>Profil</a></li>
+          <li><a href="#"><i class="fa fa-star"></i>Gallery</a></li>
+          <li><a href="#"><i class="fa fa-magnifying-glass-location"></i>Search</a></li>
+          <li><a href="#"><i class="fa fa-gears"></i>Settings</a></li>
+       </ul>
+    </div>
+ </section> -->
+ <!-- Grundnavbar -->
+ <div class="grundnav" id="grundnav">
+    <input type="checkbox" id="btn" hidden>
+    <label for="btn" class="menu-btn">
+    <i class="fas fa-bars"></i>
+    <i class="fas fa-times"></i>
+    </label>
+    <nav id="sidebar">
+       <div class="grundtitle">
+          <!-- Side Menu -->
+          <div class="profilnav" id="profilnav">
+            <div class="fotonav" id="fotoprofil">
+            <img src="images/Kiry.JPG">
+            </div>
+            <div class="grussen">
+                <h2>Hi Alina,</h2>
+                <h3>Let's go!</h3>
+            </div>
+            </div>
+       </div>
+       <ul class="arraylist-items">
+          <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+          <li><a href="#"><i class="fas fa-sliders-h"></i>Clients</a></li>
+          <li><a href="#"><i class="fas fa-address-book"></i>Services</a></li>
+          <li><a href="#"><i class="fas fa-cog"></i>Settings</a></li>
+          <li><a href="#"><i class="fas fa-stream"></i>Features</a></li>
+          <li><a href="#"><i class="fas fa-user"></i>About us</a></li>
+          <li><a href="#"><i class="fas fa-globe-asia"></i>Languages</a></li>
+          <li><a href="#"><i class="fas fa-envelope"></i>Contact us</a></li>
+          <div class="arrayicons">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-github"></i></a>
+             <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+       </ul>
+    </nav>
+ </div>
+  <!-- navbar -->
+  <div class="navig" id="navig">
+    <ul>
+        <li class="list active" id="shop">
+            <a href="#">
+                <span class="icon"><i class="fa-solid fa-pencil"></i></span>
+                <span class="text">Editor</span>
+            </a>
+        </li>
+        <li class="list" id="aktion">
+            <a href="#">
+                <span class="icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <span class="text">Search</span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="#">
+                <span class="icon"><i class="fa-solid fa-heart"></i></ion-icon></span>
+                <span class="text">favorites</span>
+            </a>
+        </li>
+        <div class="indicator"></div>
+    </ul>
+</div>
+<section class="anfangseit" id="werbungseit">
+    <div class="swiper mySwipers">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" id="slider1">  
+               <div class="logogrseit">
+              <img src="images/Anfanglogo.png">
+              </div>
+              <i class="fa-solid fa-angle-right" id="rightone"></i>
+              <h3>Finally</h3>
+              <h2>You Can Find</h2>
+              <p>your favorite place and discounts<br>Or do you want to find an institution for yourself and for your mood?<br> But don't know where ? when ?</p>
+            </div>
+          <div class="swiper-slide" id="slider2">
+            <div class="logoseit">
+                <img src="images/Beginfon.png">
+                </div>
+                <i class="fa-solid fa-angle-right" id="righttwo"></i>
+                <h3>Indeed!</h3>
+                <h2>it is possible ?</h2>
+                <p>receive offers and discounts from the establishments themselves<br>participate and win prizes<br> absolutely every day for free</p>
+          </div>
+
+          <div class="swiper-slide"  id="slider3">
+            <div class="logoseit">
+                <img src="images/LastSeit.png">
+                </div>
+                <h3>Real</h3>
+                <h2>Let's Go</h2>
+                <p>Register and collect your offers<br>and spend your day <br>with your favorite place</p>
+                <i class="fa-solid fa-angle-right" id="rightthree"></i>
+          </div>
+    
+          <div class="swiper-pagination"></div>
+      </div>
+</section>
+
+    <section class="loginw" id="loginer">
+        <div class="grundwrapper">
+        <div class="fonimg">
+            <img src="images/images.jpeg">
+        </div>
+        </div>
+         <div class="eing">
+             
+         <div class="title-text">
+            <div class="eingtitle loginname">
+               Login Form
+            </div>
+            <div class="eingtitle signupname">
+               Signup Form
+            </div>
+         </div>
+         <div class="form-container">
+            <div class="slide-controls">
+               <input type="radio" name="slide" id="login" checked>
+               <input type="radio" name="slide" id="signup">
+               <label for="login" class="slide login">Login</label>
+               <label for="signup" class="slide signup">Signup</label>
+               <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+               <form action="#" class="login">
+                  <div class="field">
+                     <input type="text" id="checkname" placeholder="Email Address" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" id="pass" placeholder="Password" required>
+                  </div>
+                  <div class="pass-link">
+                     <a href="#">Forgot password?</a>
+                  </div>
+                  <div class="field logbtn" id="ein">
+                     <div class="btn-layer" ></div>
+                     <input type="submit"  value="Login">
+                  </div>
+                  <!-- <div class="signup-link">
+                     Not a member? <a href="">Signup now</a>
+                  </div> -->
+                  <div class="signupIcons">
+                    <i class="fa-brands fa-apple"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+               </form>
+               <form action="#" class="signup">
+                  <div class="field">
+                     <input type="text" placeholder="Email Address" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Password" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Confirm password" required>
+                  </div>
+                  <div class="field sigbtn">
+                     <div class="btn-layer"></div>
+                     <input type="submit" value="Signup">
+                  </div>
+                  <div class="signupIcons">
+                    <i class="fa-brands fa-apple"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+     </section> 
+
+    <section class="profiluser" id="profiluser">
+        <!-- <header>
+        <div class="user">
+            <img src="images/Kiry.JPG" alt="">
+            <h3 class="name">shaikh anas</h3>
+            <p class="post">front end developer</p>
+        </div>
+    
+        <nav class="navbarprofil">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+            </ul>
+        </nav>
+    
+
+    </header> -->
+    <!-- header section ends -->
+    
+    <!-- <div id="menuprofil" class="fas fa-bars"></div> -->
+    
+    <!-- home section starts  -->
+    
+    <section class="home" id="home">
+    
+    <div class="card">
+        <div class="card-image">
+          <img src="images/fon.jpeg" alt="">
+        </div>
+        <div class="profile-image">
+          <img src="images/Kiry.JPG" alt="">
+        </div>
+        <!-- <div class="card-content">
+          <h3>Andrea Joe</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div> -->
+        <div class="infoblock">
+                <div class="right">
+            <div class="info">
+                <h3>Information</h3>
+                <div class="info_data">
+                     <div class="data">
+                        <h4>Name</h4>
+                        <p>Alina</p>
+                     </div>
+                     <div class="data">
+                       <h4>Age</h4>
+                        <p>27</p>
+                  </div>
+                </div>
+            </div>
+            <div class="info">
+            
+                <div class="info_data">
+                     <div class="data">
+                        <h4>Birthday</h4>
+                        <p>02.06.1995</p>
+                     </div>
+                     <div class="data">
+                       <h4>Registration date</h4>
+                        <p>04.04.2022</p>
+                  </div>
+                </div>
+            </div>
+            <div class="info">
+
+                <div class="info_data">
+                     <div class="data">
+                        <h4>Email</h4>
+                        <p>alina@gmail.com</p>
+                     </div>
+                     <div class="data">
+                       <h4>Phone</h4>
+                        <p>+436903245</p>
+                  </div>
+                </div>
+            </div>
+          <div class="projects">
+                <h3>Projects</h3>
+                <div class="projects_data">
+                     <div class="data">
+                        <h4>Recent</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                     </div>
+                     <div class="data">
+                       <h4>Most Viewed</h4>
+                        <p>dolor sit amet.</p>
+                  </div>
+                </div>
+            </div>
+          
+            <div class="social_media">
+                <ul>
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+          </div>
+        </div>
+    </div>
+    </div>
+      </div>
+      <!--Profile card end-->
+    </section>
+    
+    <!-- home section ends -->
+    
+    <!-- about section starts  -->
+    
+    <section class="about" id="about">
+    
+    <h1 class="heading"> <span>about</span> me </h1>
+    
+    <div class="row">
+        <div class="infofurperson">
+            <h3> <span> name : </span> shaikh anas </h3>
+            <h3> <span> age : </span> 20 </h3>
+            <h3> <span> qualification : </span> BMS </h3>
+            <h3> <span> post : </span> front end developer </h3>
+            <h3> <span> language : </span> hindi </h3>
+            <a href="#"><button class="btn"> download CV <i class="fa fa-download"></i> </button></a>
+        </div>
+    
+        <div class="counter">
+    
+            <div class="box">
+                <span>2+</span>
+                <h3>years of experience</h3>
+            </div>
+    
+            <div class="box">
+                <span>100+</span>
+                <h3>porject completed</h3>
+            </div>
+    
+            <div class="box">
+                <span>430+</span>
+                <h3>happy clients</h3>
+            </div>
+    
+            <div class="box">
+                <span>12+</span>
+                <h3>awards won</h3>
+            </div>
+    
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- about section ends -->
+    
+    <!-- education section starts  -->
+    
+    <section class="education" id="education">
+    
+    <h1 class="heading"> my <span>education</span> </h1>
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <i class="fa fa-graduation-cap"></i>
+            <span>2016</span>
+            <h3>front end development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+    
+        <div class="box">
+            <i class="fa fa-graduation-cap"></i>
+            <span>2017</span>
+            <h3>front end development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+    
+        <div class="box">
+            <i class="fa fa-graduation-cap"></i>
+            <span>2018</span>
+            <h3>front end development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+    
+        <div class="box">
+            <i class="fa fa-graduation-cap"></i>
+            <span>2019</span>
+            <h3>front end development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+    
+        <div class="box">
+            <i class="fa fa-graduation-cap"></i>
+            <span>2020</span>
+            <h3>front end development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+    
+        <div class="box">
+            <i class="fa fa-graduation-cap"></i>
+            <span>2021</span>
+            <h3>front end development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- education section ends -->
+    
+    <!-- portfolio section starts  -->
+    
+    <section class="portfolio" id="portfolio">
+    
+    <h1 class="heading"> my <span>portfolio</span> </h1>
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <img src="" alt="">
+        </div>
+    
+        <div class="box">
+            <img src="" alt="">
+        </div>
+    
+        <div class="box">
+            <img src="" alt="">
+        </div>
+    
+        <div class="box">
+            <img src="" alt="">
+        </div>
+    
+        <div class="box">
+            <img src="" alt="">
+        </div>
+    
+        <div class="box">
+            <img src="" alt="">
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- contact section ends -->
+    
+    
+    <!-- scroll top button  -->
+    
+    <a href="#home" class="top">
+        <!-- <img src="images/scroll-top-img.png" alt=""> -->
+    </a>
+
+    </section>
+    <section>
+        <div class="openwindow" id="openwindow">
+                <div class="circle"></div>
+                <div class="arrow-down" id="arrowclose">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div> 
+                <hea>
+                    <a href="#" class="logoangebot" ><img src="images/starbaks.png"></a>
+                </hea>
+                <div class="grundwerb">
+                    <div class="textWerb">
+                        <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
+                        <p>Lade die Starbucks®-App herunter - sie funktioniert genau wie deine Starbucks® Card.
+
+                            Sammle Sterne, verwalte dein Konto, löse deine Sterne und Rewards ein. Es könnte nicht schneller und einfacher sein.
+                            Jetzt die App herunterladen!</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="imgBox">
+                        <img src="images/img1.png" class="starbucks">
+                    </div>
+                </div>
+                <ul class="thumb">
+                    <li><img src="images/img1.png" onclick="imgSlider('images/img1.png');changeCircleColor('#017143')"></li>
+                    <li><img src="images/img2.png" onclick="imgSlider('images/img2.png');changeCircleColor('#eb7495')"></li>
+                    <li><img src="images/img3.png" onclick="imgSlider('images/img3.png');changeCircleColor('#d752b1')"></li>
+                </ul>
+                <!-- <ul class="sci">
+                    <li><a href="#"><img src="images/facebook.png"></a></li>
+                    <li><a href="#"><img src="images/instagram.png"></a></li>
+                    <li><a href="#"><img src="images/twitter.png"></a></li>
+                </ul> -->
+            </section>
+        </div>
+        
+        </section>
+     <!-- Grund Gaschaft Seite -->
+    <section>
+        <div class="gascheft" id="cafewien">
+            <div class="fotowerb">
+                <img src="images/dodopizza.jpeg">
+            </div>
+            <div class='textwerb'>
+                <h3>Dodo Pizza Karaganda</h3>
+                <div class="noten">
+                <div class="timeshop">
+                <span>8:00-19:00</span>
+                </div>
+                <div class="referenz">
+                <span> <i class="fa fa-star"></i>5.0</span>
+                </div>
+                <div class="iconinfo">
+                <spam><i class="fa fa-info"></i></spam>
+                </div>
+                </div>
+                <hr>
+            </div>
+           
+            <!-- <div class="barsshop">
+                <div class="line"></div>
+            </div> -->
+            <!-- <div class="piaround">
+                <h3 class="textpia">Diagram:</h3>
+               <div class="diagramone"> 
+            <div class="pie animate no-round" style="--p:80;--c:orange;"> 80%</div>
+            <div class="diagram">Auslastung</div>
+            <div class="pie animate no-round" style="--p:100;--c:rgb(23, 255, 2);"> 100%</div>
+            <div class="diagram">Auslastung</div>
+            </div>
+            <div class="diagramtwo">
+            <div class="pie animate no-round" style="--p:45;--c:rgb(255, 0, 0);"> 45%</div>
+            <div class="diagram">Auslastung</div>
+            <div class="pie animate no-round" style="--p:65;--c:rgb(221, 242, 29);"> 65%</div>
+            <div class="diagram">Auslastung</div>
+            </div>
+           </div> -->
+ 
+
+            
+                <!-- <div class="texttitle">
+                    <h3>Widgets:</h3>
+                    </div>
+<div class="owl-carousel">
+   
+    <div class="widgets" id="wg1">
+        <div class="textforwg">
+            <i class="fa fa-shop"></i>
+        <h3>Gifcards</h3>
+        </div>
+    </div>
+    <div class="widgets" id="wg2">
+        <div class="textforwg">
+            <i class="fa fa-bookmark"></i>
+        <h3>Gifcards</h3>
+        </div>
+    </div>
+    <div class="widgets" id="wg3">
+        <div class="textforwg">
+            <i class="fa fa-moon"></i>
+        <h3>Gifcards</h3>
+        </div>
+    </div>
+    <div class="widgets" id="wg4">
+        <div class="textforwg">
+            <i class="fa fa-people-roof"></i>
+        <h3>Gifcards</h3>
+        </div>
+    </div>
+    <div class="widgets" id="wg5">
+        <div class="textforwg">
+            <i class="fa fa-utensils"></i>
+        <h3>Gifcards</h3>
+        </div>
+    </div>
+    <div class="widgets" id="wg6">
+        <div class="textforwg">
+            <i class="fa fa-earth-americas"></i>
+        <h3>Gifcards</h3>
+        </div>
+    </div>
+</div> -->
+<div class="textpromo" id="textpromo">
+    <h3>Cafe promotions</h3>
+</div>
+<section class="cafewidget" id="shopwidgets">
+    <div class="portfolio__col" data-cat="app">
+        <div class="cafevibe" data-modal="#modal_project_1">
+            <div class="swiper-slide" id="swip"><img class="work-img" id="angebot" src="images/new.JPG" alt=""></div>
+        </div>
+        <div class="cafevibe" data-modal="#modal_project_1">
+            <div class="swiper-slide" id="swip"><img class="work-img" src="images/dodoskidki.jpeg" alt=""></div>
+        </div>
+    </div>
+    <div class="cafevibe" data-modal="#modal_project_1">
+        <div class="swiper-slide" id="swip"><img class="work-img" src="images/dodoskidki.jpeg" alt=""></div>
+    </div>
+</div>
+</section>  
+        <!-- <div clas="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28820.226494326518!2d73.07186054203841!3d49.82373631111366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42434722640d844d%3A0x2bca5220e7ccffc2!2z0JTQvtC00L4g0J_QuNGG0YbQsA!5e0!3m2!1sru!2skz!4v1657799754645!5m2!1sru!2skz" width="600" height="350"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>      -->
+    </section>
+    <!-- logo -->
+    <section class="combo" id="combo">
+    <div class="profilplace" id="profilplace">
+        <div class="info">
+        <h1>Hi, Alina</h1>
+        <h3>Let's go!</h3>
+        </div>
+        <div class="foto" id="fotoprofil">
+        <img src="images/Kiry.JPG">
+        </div>
+    </div>
+    <!-- Search -->
+    <!-- <div class="search-box" id="search">
+        <input type="text" placeholder="Type to search..">
+        <div class="search-icon">
+            <i class="fa fa-magnifying-glass"></i>
+        </div> -->
+  <div class="search-data">
+  </div>
+  </div>
+  <div class="klein_nav" id="smallnav">
+   <a class="klein_nav-link" href="#" id="cafe">Cafe</a>
+   <a class="klein_nav-link" href="#" id="clubs">Clubs</a>
+    <a class="klein_nav-link" href="#barwidgets" id="rest">Bars</a> 
+</div>
+    <!-- navbar -->
+    <div class="navigation" id="navigation">
+        <ul>
+            <li class="list active" id="shop">
+                <a href="#">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list" id="aktion">
+                <a href="#">
+                    <span class="icon"><ion-icon name="newspaper-outline"></ion-icon></span>
+                    <span class="text">News</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
+                    <span class="text">Profil</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="search-outline"></ion-icon></span>
+                    <span class="text">info</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="camera-outline"></ion-icon></span>
+                    <span class="text">Photo</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span class="text">Settings</span>
+                </a>
+            </li>
+            <!-- <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span class="text">Settings</span>
+                </a>
+            </li> -->
+            <div class="indicator"></div>
+        </ul>
+    </div>
+    <!-- Grund Seite -->
+    <section class="cafewidget" id="cafewidgets">
+    <div class="portfolio__col" data-cat="app">
+        <div class="cafevibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swipera"><img class="work-img" src="images/dodopizza.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Cafe</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip1" ><img class="work-img"  src="images/new.JPG" alt=""></div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>        
+    <div class="portfolio__col" data-cat="app">
+        <div class="cafevibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swipera"><img class="work-img"  src="images/BurgernewKing.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Cafe</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img"  src="images/BurgerKing.jpeg" alt=""></div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio__col" data-cat="app">
+        <div class="cafevibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swipera"><img class="work-img" src="images/starbucks.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Cafe</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/new.JPG" alt=""></div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio__col" data-cat="app">
+        <div class="cafevibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swiper"><img class="work-img" src="images/dodopizza.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Cafe</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/new.JPG" alt=""></div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio__col" data-cat="app">
+        <div class="cafevibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swipera"><img class="work-img" src="images/dodopizza.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Cafe</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/new.JPG" alt=""></div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="clubswidget" id="widgetclub">
+    <div class="portfolio__col" data-cat="app">
+        <div class="clubsvibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swipera"><img class="work-img" src="ftclubs/FataMargana.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Cafe</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/BurgernewKing.jpeg" alt=""></div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio__col" data-cat="app">
+        <div class="clubsvibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swipera"><img class="work-img" src="ftclubs/nightclub.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Cafe</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/new.JPG" alt=""></div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio__col" data-cat="app">
+        <div class="clubsvibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swipera"><img class="work-img" src="ftclubs/clubnoname.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Cafe</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/new.JPG" alt=""></div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio__col" data-cat="app">
+        <div class="clubsvibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swipera"><img class="work-img" src="ftclubs/russiaclub.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Cafe</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/new.JPG" alt=""></div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio__col" data-cat="app">
+        <div class="clubsvibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swipera"><img class="work-img" src="ftclubs/INTIME.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Cafe</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" alt="">
+                    <section class="shopangebot">
+                            <a href="#" class="logoshop"> 
+                                <img src="images/starbaks.png">
+                            </a>
+
+                    </section>
+                    </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!-- BARS -->
+   <section class="barwidgets" id="barwidgets">
+    <div class="portfolio__col" data-cat="app">
+        <div class="barsvibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swipera"><img class="work-img" src="ftclubs/clubveib.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Bar</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/new.JPG" alt=""></div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio__col" data-cat="app">
+        <div class="barsvibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swipera"><img class="work-img" src="ftclubs/baralmaty.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Cafe</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/new.JPG" alt=""></div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio__col" data-cat="app">
+        <div class="barsvibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swipera"><img class="work-img" src="ftclubs/baren.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Cafe</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/new.JPG" alt=""></div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio__col" data-cat="app">
+        <div class="barsvibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swipera"><img class="work-img" src="ftclubs/barastana.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Cafe</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/new.JPG" alt=""></div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio__col" data-cat="app">
+        <div class="barsvibe" data-modal="#modal_project_1">
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide" id="swipera"><img class="work-img" src="ftclubs/barkrg.jpeg" alt="">
+                    <div class="work__item-content"></div>
+            
+                    <!-- <div class="work__card">Dodo Pizza Karaganda</div> -->
+                    <div class="bars">
+                        <div class="line"></div>
+                    </div>
+                        <div class="information">
+                            <span>Auslastung:</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="cafeuhr">
+                            <span>Category: Cafe</span>
+                            <span>Open</span>
+                        </div>
+                    <div class="work__title">
+    
+                        <time class="work__date" date-time="2019-08-06 17:00">8:00-00:00</time>
+
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            
+                                
+                         </div>        
+                </div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/new.JPG" alt=""></div>
+                    <div class="swiper-slide" id="swip"><img class="work-img" src="images/Boom.JPG" alt=""></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section>
+      
+   </section>
+        <!-- Card hidden -->
+      <div class="Morebtn" id='morebtn'>
+        <button id="more">Еще</button>
+      </div>
+      </section>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+          <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="file/owl.carousel.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+      <script type="text/javascript" src="script.js"></script>
+      <!-- Script navsleider -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      direction: "vertical",
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+          delay: 17500,
+          disableOnInteraction: false,
+        },
+    });
+  </script>  
+<script>
+    $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        margin:200,
+        loop:true,
+        // autoWidth:true,
+        nav:true,
+     
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:4,
+                nav:true,
+                loop:true
+            }
+        }
+    })
+})
+</script>
+<script>
+    // var swiper = new Swiper(".mySwipers", {
+    //   spaceBetween: 30,
+    //   pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    //   },
+    // });
+    var swiper = new Swiper(".mySwipers", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+  </script>
+<script>
+    const loginText = document.querySelector(".title-text .loginname");
+         const loginForm = document.querySelector("form.login");
+         const loginBtn = document.querySelector("label.login");
+         const signupBtn = document.querySelector("label.signup");
+         const signupLink = document.querySelector("form .signup-link a");
+         signupBtn.onclick = (()=>{
+           loginForm.style.marginLeft = "-60%";
+           loginText.style.marginLeft = "-50%";
+         });
+         loginBtn.onclick = (()=>{
+           loginForm.style.marginLeft = "0%";
+           loginText.style.marginLeft = "0%";
+         });
+         signupLink.onclick = (()=>{
+           signupBtn.click();
+           return false;
+         });
+</script>
+<script>
+    function imgSlider(anything){
+        document.querySelector(".starbucks").src=anything;
+    }
+    function changeCircleColor(color){
+        const circle=document.querySelector('.circle');
+        circle.style.background=color;
+    }
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
